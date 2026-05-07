@@ -45,4 +45,4 @@ def test_score_above_100():
 # -------------------------------
 
 def test_intentional_failure_for_pipeline_evidence():
-    assert calculate_grade(75) == "Credit"
+    assert calculate_grade(75) == "Distinction"
